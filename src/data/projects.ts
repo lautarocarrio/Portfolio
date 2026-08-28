@@ -11,7 +11,7 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  {
+  /*{
     id: "malaika",
     title: "Malaika",
     subtitle: "App de entrenamiento",
@@ -26,7 +26,7 @@ export const projects: Project[] = [
     tech: ["React", "TypeScript", "Vite", "Tailwind CSS", "shadcn/ui", "Supabase", "React Query"],
     githubUrl: "https://github.com/lautarocarrio/Malaika",
     accent: "from-emerald-500/20 to-teal-500/10",
-  },
+  },*/
   {
     id: "bsi",
     title: "Sistema de Compras BSI",
@@ -40,7 +40,7 @@ export const projects: Project[] = [
       "Dashboard y calendario con métricas",
     ],
     tech: ["React", "TypeScript", "Vite", "Tailwind CSS", "shadcn/ui", "Supabase", "Recharts"],
-    githubUrl: "https://github.com/lautarocarrio/prototipoBSI",
+    githubUrl: "https://github.com/lautarocarrio/Purchase-Management-System",
     accent: "from-sky-500/20 to-blue-500/10",
   },
   {
@@ -56,7 +56,7 @@ export const projects: Project[] = [
       "Panel admin para alta de productos",
     ],
     tech: ["React", "TypeScript", "Vite", "Tailwind CSS", "Material UI", "Supabase"],
-    githubUrl: "https://github.com/lautarocarrio/TiendaOnline",
+    githubUrl: "https://github.com/lautarocarrio/AH-VAMOS-Home-Deco-E-commerce",
     accent: "from-amber-500/20 to-orange-500/10",
   },
 ];
